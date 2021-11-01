@@ -4,10 +4,11 @@
 ```buildoutcfg
 curl https://repos.emqx.io/install_emqx.sh | bash
 gui http://127.0.0.1:18083/#/plugins
+admin/public
 start meesia
-sudo eqmx stop
+sudo emqx stop
 vi /etc/emqx/plugins/emqx_auth_mnesia.conf
-sudo eqmx start
+sudo emqx start
 ```
 
 ## Install python package
